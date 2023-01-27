@@ -27,4 +27,8 @@ This extension includes a collection of snippets for generating processes, flows
 
 Initial release of iflow snippets ext
 
+## Contribution
+
+If you would like to contribute to this extension, the source code can be found on [GitHub](https://github.com/joramkimata/iflow-snippets). Feel free to open an issue or submit a pull request.
+
 ## Enjoy!

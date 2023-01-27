@@ -1,20 +1,19 @@
 {
-  "name": "iflow-snippets",
-  "displayName": "iflow-snippets",
-  "description": "Iflow Snippets for iflow-starter",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.74.0"
-  },
-  "categories": [
-    "Snippets"
-  ],
-  "contributes": {
-    "snippets": [
-      {
-        "language": "json",
-        "path": "./snippets/snippets.code-snippets"
-      }
-    ]
-  }
+    "name": "iflow-snippets",
+    "displayName": "iflow-snippets",
+    "description": "Iflow Snippets for iflow-starter",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.74.0"
+    },
+    "repository": "https://github.com/joramkimata/iflow-snippets",
+    "categories": ["Snippets"],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "json",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
 }

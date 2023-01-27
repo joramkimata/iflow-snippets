@@ -1,6 +1,6 @@
 # iflow snippets
 
-This extension includes a collection of snippets for commonly used code patterns for generate process, flows, stages and definitions for iflow-starter maven package.
+This extension includes a collection of snippets for generating processes, flows, stages and definitions json seeders for iflow engine.
 
 ## Installation
 

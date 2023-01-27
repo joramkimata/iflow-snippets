@@ -2,6 +2,7 @@
     "name": "iflow-snippets",
     "displayName": "iflow-snippets",
     "description": "Iflow Snippets for iflow-starter",
+    "publisher": "Joram Kimata",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.74.0"

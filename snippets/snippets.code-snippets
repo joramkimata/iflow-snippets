@@ -1,0 +1,34 @@
+{
+    "Iflow Process Snippet": {
+        "scope": "json",
+        "prefix": "iflow-process",
+        "body": [
+            "{\n  \"meta\": {\n    \"description\": \"$1\",\n    \"processKey\": \"$2\",\n    \"processName\": \"$3\",\n    \"shared\": ${4:true}\n  }\n}"
+        ],
+        "description": "A snippet for creating the metadata of an iflow process",
+    },
+    "Iflow Stage Snippet": {
+        "scope": "json",
+        "prefix": "iflow-stages",
+        "body": [
+            "[\n  {\n    \"stageId\": \"${1:stage1}\",\n    \"meta\": {\n      \"description\": \"$2\",\n      \"name\": \"$3\",\n      \"sortOrder\": ${4:1}\n    }\n  }\n]"
+        ],
+        "description": "A snippet for creating an iflow stages"
+    },
+    "Iflow Definitions Snippet": {
+        "scope": "json",
+        "prefix": "iflow-definitions",
+        "body": [
+            "[\n  {\n    \"definitionId\": \"${1:definition1}\",\n    \"meta\": {\n      \"stageId\": \"${2:stage1}\",\n      \"allowSinglePersonApproval\": ${3:false},\n      \"description\": \"$4\",\n      \"evalCondition\": \"$5\",\n      \"groupCommonName\": \"$6\",\n      \"isIndividualTask\": ${7:false},\n      \"startNode\": ${8:true},\n      \"taskName\": \"$9\"\n    }\n  }\n]"
+        ],
+        "description": "A snippet for creating an iflow definitions"
+    },
+    "Iflow Flow Snippet": {
+        "scope": "json",
+        "prefix": "iflow-flows",
+        "body": [
+            "[\n  {\n    \"flowId\": \"${1:flow1}\",\n    \"meta\": {\n      \"action\": \"${2:CANCEL}\",\n      \"nextEffectiveModelStatus\": \"${3:CANCELLED}\",\n      \"processEnds\": ${4:true},\n      \"useEvalExpression\": ${5:false},\n      \"evalCondition\": \"$6\",\n      \"definitionId\": \"${7:definition1}\",\n      \"nextDefinitionId\": ${8:null}\n    }\n  }\n]"
+        ],
+        "description": "A snippet for creating an iflow flows"
+    }
+}

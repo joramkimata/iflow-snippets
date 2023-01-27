@@ -1,0 +1,20 @@
+{
+  "name": "iflow-snippets",
+  "displayName": "iflow-snippets",
+  "description": "Iflow Snippets for iflow-starter",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "json",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

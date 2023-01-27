@@ -8,10 +8,6 @@ This extension includes a collection of snippets for commonly used code patterns
 2. Search for `iflow`
 3. Click the `Install` button, then the `Enable` button
 
-## Usage
-
-Type the snippet prefix in the editor and press `tab`.
-
 ### Snippets
 
 - `iflow-process`: A snippet for creating the metadata of an iflow process
